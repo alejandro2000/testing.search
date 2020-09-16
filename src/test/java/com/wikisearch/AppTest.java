@@ -19,7 +19,7 @@ public class AppTest
     {
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         WebDriver driver=new ChromeDriver();
-        driver.get("http://www.facebook.com");
+        driver.get("https://www.google.es/");
         driver.manage().window().maximize();
         driver.close();
     }
